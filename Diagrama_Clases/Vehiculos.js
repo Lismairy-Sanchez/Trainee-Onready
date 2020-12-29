@@ -1,4 +1,4 @@
-class Vehiculos {
+class Vehiculo {
     constructor(Marca, Modelo, Precio) {
         this.Marca = Marca;
         this.Modelo = Modelo;
@@ -6,4 +6,4 @@ class Vehiculos {
     }
 }
 
-module.exports = Vehiculos;
+module.exports = Vehiculo;
