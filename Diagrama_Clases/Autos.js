@@ -2,7 +2,7 @@
 const Vehiculos = require("./Vehiculos");
 
 //Clase Auto extiende de la clase Vehiculos
-class Autos extends Vehiculos {
+class Auto extends Vehiculos {
     constructor(Marca, Modelo, Precio, Puertas) {
         super(Marca, Modelo, Precio); //Llamo funciones del objeto padre
         this.Puertas = Puertas;
