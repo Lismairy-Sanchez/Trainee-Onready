@@ -1,4 +1,4 @@
-const Vehiculos = require("./Clases/Vehiculos");
+const Vehiculos = require("./Vehiculos");
 
 class Autos extends Vehiculos {
     //Clase Auto se extiende de la clase Vehiculos
