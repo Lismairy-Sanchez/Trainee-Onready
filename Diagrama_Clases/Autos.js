@@ -3,9 +3,9 @@ const Vehiculos = require("./Vehiculos");
 
 //Clase Auto extiende de la clase Vehiculos
 class Autos extends Vehiculos {
-    constructor(marca, modelo, precio, puertas) {
-        super(marca, modelo, precio); //Llamo funciones del objeto padre
-        this.puertas = puertas;
+    constructor(Marca, Modelo, Precio, Puertas) {
+        super(Marca, Modelo, Precio); //Llamo funciones del objeto padre
+        this.Puertas = Puertas;
     }
 }
 module.exports = Autos;
