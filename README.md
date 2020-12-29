@@ -1,7 +1,7 @@
 <h1>Ejercicio Trainee Onready</h1>
 
-Imaginemos una concesionaria de autos y motos.
-Crear un programa en Java o Javascript que, al ejecutarse, se visualice lo siguiente por consola:
+<p>Imaginemos una concesionaria de autos y motos.</p>
+<p>Crear un programa en Java o Javascript que, al ejecutarse, se visualice lo siguiente por consola:</p>
 
 ```
 Marca: Peugeot // Modelo: 206 // Puertas: 4 // Precio: $200.000,00
