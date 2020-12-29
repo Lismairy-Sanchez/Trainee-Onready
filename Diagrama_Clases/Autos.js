@@ -8,4 +8,4 @@ class Auto extends Vehiculos {
         this.Puertas = Puertas;
     }
 }
-module.exports = Autos;
+module.exports = Auto;
