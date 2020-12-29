@@ -3,21 +3,22 @@
 <p>Imaginemos una concesionaria de autos y motos.
 Crear un programa en Java o Javascript que, al ejecutarse, se visualice lo siguiente por consola:</p>
 
-<p>Marca: Peugeot // Modelo: 206 // Puertas: 4 // Precio: $200.000,00
-Marca: Honda // Modelo: Titan // Cilindrada: 125cc // Precio: $60.000,00
-Marca: Peugeot // Modelo: 208 // Puertas: 5 // Precio: $250.000,00
-Marca: Yamaha // Modelo: YBR // Cilindrada: 160cc // Precio: $80.500,50
+<ul>
+<li>Marca: Peugeot // Modelo: 206 // Puertas: 4 // Precio: $200.000,00</li>
+<li>Marca: Honda // Modelo: Titan // Cilindrada: 125cc // Precio: $60.000,00</li>
+<li>Marca: Peugeot // Modelo: 208 // Puertas: 5 // Precio: $250.000,00</li>
+<li>Marca: Yamaha // Modelo: YBR // Cilindrada: 160cc // Precio: $80.500,50</li>
 =============================
-Vehículo más caro: Peugeot 208
-Vehículo más barato: Honda Titan
-Vehículo que contiene en el modelo la letra ‘Y’: Yamaha YBR $80.500,50
+<li>Vehículo más caro: Peugeot 208 </li>
+<li>Vehículo más barato: Honda Titan </li>
+<li>Vehículo que contiene en el modelo la letra ‘Y’: Yamaha YBR $80.500,50</li>
 =============================
-Vehículos ordenados por precio de mayor a menor:
-Peugeot 208
-Peugeot 206
-Yamaha YBR
-Honda Titan
-</p>
+<h4>Vehículos ordenados por precio de mayor a menor:<h4>
+<li>Peugeot 208</li>
+<li>Peugeot 206</li>
+<li>Yamaha YBR</li>
+<li>Honda Titan</li>
+</ul>
 
 <h3>La solución debe cumplir con los siguientes requisitos: </h3>
 <p>
