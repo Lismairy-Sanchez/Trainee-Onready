@@ -1,8 +1,8 @@
 // Import
-const Vehiculos = require("./Vehiculos");
+const Vehiculo = require("./Vehiculos");
 
 //Clase Motos extiende de la clase Vehiculos
-class Moto extends Vehiculos {
+class Moto extends Vehiculo {
     constructor(Marca, Modelo, Precio, Cilindrada) {
         super(Marca, Modelo, Precio); //Llamo funciones del objeto padre
         this.Cilindrada = Cilindrada;

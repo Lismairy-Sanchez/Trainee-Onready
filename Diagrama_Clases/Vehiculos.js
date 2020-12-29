@@ -8,11 +8,13 @@ class Vehiculo {
     precio() {
         //Defino el idioma (es) y el pais (AR)
         const formato_Peso = new Intl.NumberFormat("es-AR", {
-            style: "currency", // formato moneda
-            currency: "ARS", //tipo de divisa
+            // style: "currency", // formato moneda
+            // currency: "ARS", //tipo de divisa
+            //Defino el número mínimo de dígitos fraccionarios que se utilizarán y el número máximo de dígitos fraccionarios que se utilizarán.
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2,
         }).format(this.Precio);
-        return formato_Peso;
+        return `$${formato_Peso}`;
     }
 }
-
 module.exports = Vehiculo;
